@@ -4,22 +4,27 @@ import java.util.*;
 
 public class StringCalculator {
 	
-	public int add(String numbers) {
+	public static int add(String numbers) {
 		
-		int sum = 0;
+		if(numbers.isEmpty()) {
+			return 1;
+		}else {
+			return 1;
+		}
 		
-		
-		
-		return sum;
 	}
 	
-	public String validate(String userInp) {
-		
-		String numbs = "";
-		
-		
-		return numbs;
-	}
+//	public static void validate(String userInp) {
+//		
+//		if(userInp.isEmpty()) {
+//			System.out.println(add("0"));
+//		}else if(userInp.contains(",")) {
+//			String[] split = userInp.split(",");
+//			int added = Integer.parseInt(split[0]) + Integer.parseInt(split[1]);
+//			System.out.println();
+//		}
+//		
+//	}
 	
 	public static void main(String[] args) {
 		
@@ -29,7 +34,13 @@ public class StringCalculator {
 		
 		System.out.println("Provide Input of Numbers \nCan be separated by any delimiter []");
 		String userInp = inp.nextLine();
-		System.out.println(userInp);
+//		System.out.println("Raw Input :" + userInp);
+		
+//		validate(userInp);
+		
+		System.out.println("vantha Output : " + add(userInp));
+		
+		
 
 	}
 
