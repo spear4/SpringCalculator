@@ -2,18 +2,19 @@ package com.incubyte.string.calc;
 
 import java.util.*;
 
+
 public class StringCalculator {
 	
 	public static int add(String inputStr) {
 		
-		//To Store the end totaled result
+		//To Store the end sum result
 		int sum = 0;
 		
 		if(inputStr.isEmpty()) {//Check if the user given an empty string
 			
 			sum += 0;
 			
-		}else if(inputStr.length() == 3 && inputStr.substring(1, 2).equals(",")){//Check if the user given an comma separated three digit value
+		}else if(inputStr.length() == 3 && inputStr.substring(1, 2).equals(",")){//Check if the user given an comma separated three character input
 			
 			String[] nums = inputStr.split(",");
 			sum += Integer.parseInt(nums[0]) + Integer.parseInt(nums[1]);
@@ -153,7 +154,12 @@ public class StringCalculator {
 }
 
 //Sample Input with comma(,), almost all keyboard symbols and multiple delimiters as well and (",\n")
-//  input = 1,2<3.4>5/6?7;8:9'10"11[12{13]14}15\16|17!18@19#20$21%22^23*&24*25(26)27!!!!28###29********30\n31,\n32
+//  input = q
 //Sample Output
-//  output = 528 (sum from 0, 1, 2, to 32)
+//Sumdqdd  output = 528 (sum from 0, 1, 2, to 32)
 //Note : decimal(.) is also considered as delimiter
+
+
+//Contact
+//Manigandan M
+//manindia1007@gmail.com
