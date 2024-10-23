@@ -7,13 +7,13 @@ import org.junit.Test;
 public class StringCalcTest {
 	
 	@Test
-	public void junitTest() {
+	public void testEmptyStr() {
 		assertEquals(0, StringCalculator.add(""));
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	@Test
+	public void testComma() {
+		assertEquals(3, StringCalculator.add("1,2"));
 	}
 
 }
