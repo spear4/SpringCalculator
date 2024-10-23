@@ -77,7 +77,7 @@ public class StringCalcTest {
 			
 		} catch (IllegalArgumentException e) {
 
-			assertTrue(e.getMessage().contains("Given Input Number exceeds 1000 : 1005"));
+			assertTrue(e.getMessage().contains("Given input number exceeds 1000 : 1005"));
 			
 		}
 		
@@ -97,7 +97,7 @@ public class StringCalcTest {
 			
 		}catch(IllegalArgumentException e) {
 			
-			assertTrue(e.getMessage().contains("Negative Numbers Found in the Input : [-1, -2, -3, -4, -5]"));
+			assertTrue(e.getMessage().contains("Negative numbers found in the nput : [-1, -2, -3, -4, -5]"));
 			
 		}
 		

@@ -56,7 +56,7 @@ public class StringCalculator {
 						}else if(numIntegers > 1000) {// Check if the integer exceeds 1000
 							
 							//Generate error for so
-							throw new IllegalArgumentException("Given Input Number exceeds 1000 : " + numIntegers);
+							throw new IllegalArgumentException("Given input number exceeds 1000 : " + numIntegers);
 							
 						}else if(numIntegers < 0) {//Check if the integer is negative
 							
@@ -92,7 +92,7 @@ public class StringCalculator {
 				}else if(numLastInteger > 1000) {
 					
 					//Generate error for so
-					throw new IllegalArgumentException("Given Input Number Exceeds 1000 : " + numLastInteger);
+					throw new IllegalArgumentException("Given input number exceeds 1000 : " + numLastInteger);
 					
 				}else if(numLastInteger < 0) {
 				
